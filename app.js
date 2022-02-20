@@ -5,7 +5,7 @@ const cors=require('cors')
 const zomatoRoutes=require('./routes/zomato')
 const paymentRoutes=require('./routes/razorPay')
 const mongoose=require('mongoose')
-require("dotenv").config();
+//require("dotenv").config();
 //connect to mongoDB 
 /* mongoose.connect('mongodb://localhost/zomato',
      ()=>{
